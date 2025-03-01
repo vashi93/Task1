@@ -4,111 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Space Exploration</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-            color: #c5c6c7;
-        }
-        header{
-            background: #0d0e0e;
-            padding: 8px;
-            text-align: center;
-        }
-        .hero {
-            background: url('images/hero.jpg') no-repeat center center;
-            background-size: 100% 100%;
-            height: 60vh;
-            width: 100%;
-            display: flex;
-            align-items: flex-start;
-            justify-content: center;
-            color: white;
-            text-align: center;
-            font-size: 2.5em;
-            padding-top: 100px;
-        }
-        section {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
-        section img {
-            width: 40%;
-            height: auto;
-            margin-top: 10px;
-            border-radius: 10px;
-        }
-        section h2 {
-            color: #c5c6c7;
-            font-size: 60px;
-        }
-        section p {
-            font-size: 20px;
-        }
-        section ul {
-            font-size: 20px;
-            text-align: left;
-        }
-        footer {
-            background: #0d0e0e;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <nav>
         <h1>Space Exploration</h1>
-    </header>
-    
+        <div class="nav-links">
+            <a href="#intro">Introduction</a>
+            <a href="#milestones">Milestones</a>
+            <a href="#future">Future</a>
+            <a href="#technology">Technology</a>
+            <a href="#collaboration">Collaboration</a>
+        </div>
+    </nav>
     <section class="hero">
         <h1>Exploring the Cosmos</h1>
     </section>
-    
-    <section>
-        <h2>Introduction</h2>
-        <p>Space exploration is the ongoing discovery and study of celestial bodies and the vast universe beyond Earth. It has led to groundbreaking advancements in technology, science, and our understanding of the cosmos.</p>
-        <img src="images/earth_space.jpg">
+    <section id="intro">
+        <div class="text">
+            <h2>Introduction</h2>
+            <p>Space exploration is the ongoing discovery and study of celestial bodies and the vast universe beyond Earth.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/earth_space.jpg">
+        </div>
     </section>
-    
-    <section>
-        <h2>Major Milestones</h2>
-        <ul>
-            <li>1957 - Launch of Sputnik 1, the first artificial satellite.</li>
-            <li>1969 - Apollo 11 mission lands the first humans on the Moon.</li>
-            <li>1998 - International Space Station (ISS) begins assembly.</li>
-            <li>2021 - Perseverance rover lands on Mars to search for signs of past life.</li>
-        </ul>
-        <img src="images/astronaut.jpeg">
+    <section id="milestones">
+        <div class="text">
+            <h2>Major Milestones</h2>
+            <ul>
+                <li>1957 - Launch of Sputnik 1.</li>
+                <li>1969 - Apollo 11 lands on the Moon.</li>
+                <li>1998 - ISS assembly begins.</li>
+                <li>2021 - Perseverance lands on Mars.</li>
+            </ul>
+        </div>
+        <div class="image-container">
+            <img src="images/astronaut.jpeg">
+        </div>
     </section>
-    
-    <section>
-        <h2>Future of Space Exploration</h2>
-        <p>The future of space exploration includes missions to Mars, asteroid mining, and the possibility of human settlements beyond Earth. Private companies like SpaceX and Blue Origin are revolutionizing space travel, making it more accessible than ever.</p>
-        <img src="images/mars_colony.jpeg">
+    <section id="future">
+        <div class="text">
+            <h2>Future of Space Exploration</h2>
+            <p>Upcoming missions include Mars colonization, asteroid mining, and deep-space travel.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/mars_colony.jpeg">
+        </div>
     </section>
-    
-    <section>
-        <h2>The Role of Technology</h2>
-        <p>Advancements in AI, robotics, and propulsion systems are making deep space exploration more feasible. Innovations like reusable rockets and autonomous spacecraft are shaping the next era of space missions.</p>
-        <img src="images/space_tech.jpg">
+    <section id="technology">
+        <div class="text">
+            <h2>The Role of Technology</h2>
+            <p>Innovations like AI, robotics, and reusable rockets are shaping future missions.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/space_tech.jpg">
+        </div>
     </section>
-    
-    <section>
-        <h2>International Collaboration</h2>
-        <p>Space exploration has become a global effort, with nations working together on projects like the ISS and upcoming lunar bases. The Artemis program aims to return humans to the Moon with international partnerships.</p>
-        <img src="images/iss.jpg">
+    <section id="collaboration">
+        <div class="text">
+            <h2>International Collaboration</h2>
+            <p>Nations are working together on projects like the ISS and lunar exploration.</p>
+        </div>
+        <div class="image-container">
+            <img src="images/iss.jpg">
+        </div>
     </section>
-    
     <footer>
-        <p>Made by Vashista Reddy</p>
+        <div>
+            <h3>Space</h3>
+            <h3>Exploration.</h3>
+        </div>
+        <div class="footer-links">
+            
+            
+            <a href="#intro">Introduction</a>
+            <a href="#milestones">Milestones</a>
+            <a href="#future">Future</a>
+            <a href="#technology">Technology</a>
+            <a href="#collaboration">Collaboration</a>
+            
+        </div>
+        <div>
+            <p>Made by</p>
+            <p>Vashista Reddy</p>
+        </div>
     </footer>
 </body>
 </html>
